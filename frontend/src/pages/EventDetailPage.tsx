@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Navbar } from '../components/Navbar';
 import { Footer } from '../components/Footer';
-import { Calendar, MapPin, Clock, Users, Ticket, Star, Share2, Heart, ArrowLeft, Music, Camera, Gamepad2, Palette, CreditCard, User, Mail, Phone } from 'lucide-react';
+import { Calendar, MapPin, Clock, Users, Star, Share2, Heart, ArrowLeft, Music, Camera, Gamepad2, Palette, CreditCard, User, Mail, Phone } from 'lucide-react';
 import { apiService } from '../services/api';
 
 interface Event {

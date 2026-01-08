@@ -2,7 +2,7 @@
 
 A comprehensive full-stack web application for software services, event management, and booking system with modern UI/UX design.
 
-## 🚀 Project Overview
+## Project Overview
 
 SibLore is a professional software solutions platform that provides:
 - **Service Management**: Complete CRUD operations for software services
@@ -32,7 +32,7 @@ SibLore is a professional software solutions platform that provides:
 - **bcryptjs 2.4.3** - Password hashing
 - **CORS 2.8.5** - Cross-origin resource sharing
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 siblore/
@@ -85,55 +85,55 @@ siblore/
 └── README.md                  # This file
 ```
 
-## 🎯 Core Features
+## Core Features
 
 ### Service Management
-- ✅ **CRUD Operations**: Create, Read, Update, Delete services
-- ✅ **Image Upload**: File upload with Multer integration
-- ✅ **Category Management**: Organize services by categories
-- ✅ **Pricing in KSH**: Kenyan Shillings currency support
-- ✅ **Active/Inactive Status**: Toggle service availability
-- ✅ **Dynamic Display**: Services fetched from database
+- **CRUD Operations**: Create, Read, Update, Delete services
+- **Image Upload**: File upload with Multer integration
+- **Category Management**: Organize services by categories
+- **Pricing in KSH**: Kenyan Shillings currency support
+- **Active/Inactive Status**: Toggle service availability
+- **Dynamic Display**: Services fetched from database
 
 ### Event Management
-- ✅ **Event Creation**: Full event details with images
-- ✅ **Ticket System**: Quantity management and availability
-- ✅ **Event Categories**: Concerts, Workshops, Gaming, Arts & Culture
-- ✅ **Gallery Support**: Multiple event images
-- ✅ **Rating System**: Event ratings and reviews
-- ✅ **Organizer Info**: Contact details and organizer profile
+- **Event Creation**: Full event details with images
+- **Ticket System**: Quantity management and availability
+- **Event Categories**: Concerts, Workshops, Gaming, Arts & Culture
+- **Gallery Support**: Multiple event images
+- **Rating System**: Event ratings and reviews
+- **Organizer Info**: Contact details and organizer profile
 
 ### Product Management
-- ✅ **Product CRUD**: Complete product lifecycle management
-- ✅ **Image Upload**: Product image handling
-- ✅ **Inventory Tracking**: Stock management
-- ✅ **Category System**: Product categorization
-- ✅ **Pricing Control**: Flexible pricing options
+- **Product CRUD**: Complete product lifecycle management
+- **Image Upload**: Product image handling
+- **Inventory Tracking**: Stock management
+- **Category System**: Product categorization
+- **Pricing Control**: Flexible pricing options
 
 ### Booking System
-- ✅ **Multi-Step Flow**: Contract → Payment → Onboarding → Invoice → Complete
-- ✅ **Service Selection**: Dynamic service dropdown from database
-- ✅ **Payment Integration**: M-Pesa and Card payment options
-- ✅ **Contract Generation**: Digital contract creation
-- ✅ **Progress Tracking**: Step-by-step booking progress
-- ✅ **Form Validation**: Comprehensive input validation
+- **Multi-Step Flow**: Contract → Payment → Onboarding → Invoice → Complete
+- **Service Selection**: Dynamic service dropdown from database
+- **Payment Integration**: M-Pesa and Card payment options
+- **Contract Generation**: Digital contract creation
+- **Progress Tracking**: Step-by-step booking progress
+- **Form Validation**: Comprehensive input validation
 
 ### Admin Dashboard
-- ✅ **Analytics**: Real-time statistics and metrics
-- ✅ **Revenue Tracking**: Total and monthly revenue calculations
-- ✅ **User Management**: Client and booking management
-- ✅ **Content Management**: Services, events, products control
-- ✅ **Status Management**: Booking approval/rejection system
-- ✅ **Search & Filter**: Advanced filtering capabilities
+- **Analytics**: Real-time statistics and metrics
+- **Revenue Tracking**: Total and monthly revenue calculations
+- **User Management**: Client and booking management
+- **Content Management**: Services, events, products control
+- **Status Management**: Booking approval/rejection system
+- **Search & Filter**: Advanced filtering capabilities
 
 ### Authentication & Security
-- ✅ **JWT Authentication**: Secure token-based auth
-- ✅ **Admin Protection**: Route-level authentication
-- ✅ **Password Hashing**: bcryptjs for security
-- ✅ **CORS Configuration**: Cross-origin request handling
-- ✅ **Input Validation**: Frontend and backend validation
+- **JWT Authentication**: Secure token-based auth
+- **Admin Protection**: Route-level authentication
+- **Password Hashing**: bcryptjs for security
+- **CORS Configuration**: Cross-origin request handling
+- **Input Validation**: Frontend and backend validation
 
-## 💾 Database Schema
+## Database Schema
 
 ### Service Model
 ```javascript
@@ -186,7 +186,7 @@ siblore/
 }
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+ installed
@@ -240,7 +240,7 @@ siblore/
 - **Admin Login**: Any email with password `admin123`
 - **Development Token**: Auto-generated for testing
 
-## 🌐 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/auth/login` - Admin login
@@ -274,7 +274,7 @@ siblore/
 ### Dashboard
 - `GET /api/dashboard/stats` - Get dashboard statistics (admin)
 
-## 🎨 UI/UX Features
+## UI/UX Features
 
 ### Design System
 - **Dark Theme**: Professional dark color scheme
@@ -290,14 +290,14 @@ siblore/
 - **Error Handling**: Graceful error displays
 - **Form Validation**: Real-time validation
 
-## 📱 Browser Support
+## Browser Support
 
 - Chrome 90+
 - Firefox 88+
 - Safari 14+
 - Edge 90+
 
-## 🔧 Development Scripts
+## Development Scripts
 
 ### Backend
 ```bash
@@ -313,7 +313,7 @@ npm run preview    # Preview production build
 npm run lint       # Run ESLint
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Production Build
 ```bash
@@ -338,7 +338,7 @@ FRONTEND_URL=http://localhost:5173
 VITE_API_URL=http://localhost:5000/api
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -346,17 +346,14 @@ VITE_API_URL=http://localhost:5000/api
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📄 License
+## License
 
 This project is licensed under the ISC License.
 
-## 🆘 Support
+## Support
 
 For support and questions:
 - Email: admin@siblore.com
 - Documentation: Check this README file
 - Issues: Create GitHub issues
 
----
-
-**Built with ❤️ using modern web technologies**
