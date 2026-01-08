@@ -12,7 +12,7 @@ SibLore is a professional software solutions platform that provides:
 - **Admin Dashboard**: Comprehensive analytics and management interface
 - **User Authentication**: Secure JWT-based authentication system
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Frontend
 - **React 18.3.1** - Modern React with hooks
