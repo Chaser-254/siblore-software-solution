@@ -1,0 +1,71 @@
+export const services = [{
+  id: 1,
+  title: 'Photo Editing',
+  price: 'KSH 3,000',
+  features: ['Color Correction', 'Background Removal', 'Retouching', 'High Resolution'],
+  delivery: '2-3 days',
+  image: '/uploads/services/photo-editing.jpeg.jpeg'
+}, {
+  id: 2,
+  title: 'Computer Maintenance',
+  price: 'KSH 5,000',
+  features: ['Hardware Check', 'Software Updates', 'Virus Removal', 'Performance Optimization'],
+  delivery: '1-2 days',
+  image: '/uploads/services/computer-maintenance.jpeg.jpeg'
+}, {
+  id: 3,
+  title: 'IT / ICT Services',
+  price: 'KSH 25,000',
+  features: ['Network Setup', 'Cloud Integration', 'Tech Support', 'Security Setup'],
+  delivery: '7-10 days',
+  image: '/uploads/services/it-services.jpeg.jpeg'
+}, {
+  id: 4,
+  title: 'Marketing Services',
+  price: 'KSH 35,000',
+  features: ['Social Media Marketing', 'Content Strategy', 'Campaign Management', 'Analytics Reports'],
+  delivery: '30 days',
+  image: '/uploads/services/marketing-services.jpg.jpeg'
+}, {
+  id: 5,
+  title: 'Video Editing',
+  price: 'KSH 12,000',
+  features: ['Color Grading', 'Motion Graphics', 'Sound Design', 'Multiple Formats'],
+  delivery: '5-7 days',
+  image: '/uploads/services/video-editing.jpg.jpeg'
+}, {
+  id: 6,
+  title: 'Complete Branding',
+  price: 'KSH 45,000',
+  features: ['Logo Suite', 'Color Palette', 'Typography', 'Brand Book', 'Social Media Kit'],
+  delivery: '10-14 days',
+  image: '/uploads/services/complete-branding.jpg.jpeg'
+}, {
+  id: 7,
+  title: 'Poster Design',
+  price: 'KSH 8,000',
+  features: ['Custom Design', 'Print Ready', '2 Revisions', 'High Resolution'],
+  delivery: '3-5 days',
+  image: '/uploads/services/poster-design.jpg.jpeg'
+}, {
+  id: 8,
+  title: 'Logo Design',
+  price: 'KSH 15,000',
+  features: ['3 Concepts', 'Unlimited Revisions', 'Vector Files', 'Brand Guidelines'],
+  delivery: '5-7 days',
+  image: '/uploads/services/logo-design.jpg.jpeg'
+}, {
+  id: 9,
+  title: 'Website Development',
+  price: 'KSH 80,000',
+  features: ['Responsive Design', 'SEO Optimized', 'Mobile Friendly', 'Free Hosting Setup'],
+  delivery: '14-21 days',
+  image: '/uploads/services/website-development.jpg.jpeg'
+}, {
+  id: 10,
+  title: 'Social Media Graphics',
+  price: 'KSH 5,000',
+  features: ['5 Graphics', 'All Platforms', 'Editable Templates', '1 Revision'],
+  delivery: '2-3 days',
+  image: '/uploads/services/social-media.jpg.jpeg'
+}];
